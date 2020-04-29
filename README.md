@@ -15,6 +15,10 @@ mruby/c sample program for Renesas boards
 - Please rename the board folder of the target board.
 - For the Target Board for RX65N, rename `board_tb_rx65n` to `board`.
 
+## Edit makefile
+- Open the `src/makefile`.
+- Delete the comment out of the compile option according to the target microcomputer.
+
 ## Build the mruby/c library and sample program
 - Execute `RX-ELF Toolchain`.
 - Move to top folder.
